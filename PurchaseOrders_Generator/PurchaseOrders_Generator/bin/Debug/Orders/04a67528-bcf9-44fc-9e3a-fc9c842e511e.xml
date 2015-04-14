@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Order xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2">
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:ID>RLcw9WlF02</cbc:ID>
+  <cbc:CopyIndicator>false</cbc:CopyIndicator>
+  <cbc:UUID>04a67528-bcf9-44fc-9e3a-fc9c842e511e</cbc:UUID>
+  <cbc:IssueDate>2015/04/14 04:33:05</cbc:IssueDate>
+  <cbc:Note>sample</cbc:Note>
+  <cac:BuyerCustomerParty>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>Furia Bacalhau e Frutos do Mar</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone>1675</cbc:PostalZone>
+        <cbc:CountrySubentity />
+        <cac:AddressLine>
+          <cac:Line>Jardim das rosas n. 32</cac:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:Name>Portugal</cbc:Name>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Contact>
+        <cbc:Name>Lino Rodriguez </cbc:Name>
+        <cbc:Telephone>(1) 354-2534</cbc:Telephone>
+        <cbc:Telefax>(1) 354-2535</cbc:Telefax>
+        <cbc:Note>Gerente de ventas</cbc:Note>
+      </cac:Contact>
+    </cac:Party>
+  </cac:BuyerCustomerParty>
+  <cac:SellerSupplierParty>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>Blauer See Delikatessen</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone>68306</cbc:PostalZone>
+        <cbc:CountrySubentity />
+        <cac:AddressLine>
+          <cac:Line>Forsterstr. 57</cac:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:Name>Alemania</cbc:Name>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Contact>
+        <cbc:Name>Hanna Moos</cbc:Name>
+        <cbc:Telephone>0621-08460</cbc:Telephone>
+        <cbc:Telefax>0621-08924</cbc:Telefax>
+        <cbc:Note>Representante de ventas</cbc:Note>
+      </cac:Contact>
+    </cac:Party>
+  </cac:SellerSupplierParty>
+  <cac:DeliveryTerms>
+    <cbc:SpecialTerms>1% deduction for late delivery as per contract</cbc:SpecialTerms>
+  </cac:DeliveryTerms>
+  <cac:TransactionConditions>
+    <cbc:Description>order response required; payment is by BACS or by cheque</cbc:Description>
+  </cac:TransactionConditions>
+  <cac:AnticipatedMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="GBP">100.00</cbc:LineExtensionAmount>
+    <cbc:PayableAmount currencyID="GBP">100.00</cbc:PayableAmount>
+  </cac:AnticipatedMonetaryTotal>
+  <cac:OrderLine>
+    <cac:LineItem>
+      <cbc:Quantity unitCode="UND">17</cbc:Quantity>
+      <cbc:LineExtensionAmount currencyID="USD">306</cbc:LineExtensionAmount>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="USD">18</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="UND">1</cbc:BaseQuantity>
+      </cac:Price>
+      <cac:Item>
+        <cbc:Description>Té Dharamsala</cbc:Description>
+      </cac:Item>
+    </cac:LineItem>
+  </cac:OrderLine>
+  <cac:OrderLine>
+    <cac:LineItem>
+      <cbc:Quantity unitCode="UND">0</cbc:Quantity>
+      <cbc:LineExtensionAmount currencyID="USD">0</cbc:LineExtensionAmount>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="USD">25</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="UND">1</cbc:BaseQuantity>
+      </cac:Price>
+      <cac:Item>
+        <cbc:Description>Queso de cabra</cbc:Description>
+      </cac:Item>
+    </cac:LineItem>
+  </cac:OrderLine>
+  <cac:OrderLine>
+    <cac:LineItem>
+      <cbc:Quantity unitCode="UND">20</cbc:Quantity>
+      <cbc:LineExtensionAmount currencyID="USD">640</cbc:LineExtensionAmount>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="USD">32</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="UND">1</cbc:BaseQuantity>
+      </cac:Price>
+      <cac:Item>
+        <cbc:Description>Queso Mascarpone Fabioli</cbc:Description>
+      </cac:Item>
+    </cac:LineItem>
+  </cac:OrderLine>
+  <cac:OrderLine>
+    <cac:LineItem>
+      <cbc:Quantity unitCode="UND">74</cbc:Quantity>
+      <cbc:LineExtensionAmount currencyID="USD">1850</cbc:LineExtensionAmount>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="USD">25</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="UND">1</cbc:BaseQuantity>
+      </cac:Price>
+      <cac:Item>
+        <cbc:Description>Queso de cabra</cbc:Description>
+      </cac:Item>
+    </cac:LineItem>
+  </cac:OrderLine>
+  <cac:OrderLine>
+    <cac:LineItem>
+      <cbc:Quantity unitCode="UND">55</cbc:Quantity>
+      <cbc:LineExtensionAmount currencyID="USD">53075</cbc:LineExtensionAmount>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="USD">965</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="UND">1</cbc:BaseQuantity>
+      </cac:Price>
+      <cac:Item>
+        <cbc:Description>Crema de almejas estilo Nueva Inglaterra</cbc:Description>
+      </cac:Item>
+    </cac:LineItem>
+  </cac:OrderLine>
+  <cac:OrderLine>
+    <cac:LineItem>
+      <cbc:Quantity unitCode="UND">66</cbc:Quantity>
+      <cbc:LineExtensionAmount currencyID="USD">660</cbc:LineExtensionAmount>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="USD">10</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="UND">1</cbc:BaseQuantity>
+      </cac:Price>
+      <cac:Item>
+        <cbc:Description>Queso de soja Longlife</cbc:Description>
+      </cac:Item>
+    </cac:LineItem>
+  </cac:OrderLine>
+  <cac:OrderLine>
+    <cac:LineItem>
+      <cbc:Quantity unitCode="UND">87</cbc:Quantity>
+      <cbc:LineExtensionAmount currencyID="USD">870</cbc:LineExtensionAmount>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="USD">10</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="UND">1</cbc:BaseQuantity>
+      </cac:Price>
+      <cac:Item>
+        <cbc:Description>Bollos de Sir Rodney's</cbc:Description>
+      </cac:Item>
+    </cac:LineItem>
+  </cac:OrderLine>
+  <cac:OrderLine>
+    <cac:LineItem>
+      <cbc:Quantity unitCode="UND">17</cbc:Quantity>
+      <cbc:LineExtensionAmount currencyID="USD">306</cbc:LineExtensionAmount>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="USD">18</cbc:PriceAmount>
+        <cbc:BaseQuantity unitCode="UND">1</cbc:BaseQuantity>
+      </cac:Price>
+      <cac:Item>
+        <cbc:Description>Té Dharamsala</cbc:Description>
+      </cac:Item>
+    </cac:LineItem>
+  </cac:OrderLine>
+</Order>
